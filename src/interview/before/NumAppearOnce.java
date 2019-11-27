@@ -25,6 +25,7 @@ public class NumAppearOnce {
         System.out.println(num.singleNumber(in));
     }
 
+    // Solution: Use ^(异或);same number return 0;
     public int singleNumber(int[] nums) {
         int retNum=0;
         for (int i=0;i<nums.length;i++) {
