@@ -13,7 +13,7 @@ import java.util.List;
 public class T18 {
     public static void main(String[] args) {
         T18 t = new T18();
-        System.out.println(t.subsetsWithDup(new int[]{1,2,2}));
+        System.out.println(t.subsetsWithDup(new int[]{1,2,2,3}));
     }
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -24,6 +24,7 @@ public class T18 {
     private void subSubSet(List<List<Integer>> result,List<Integer> list,int[] nums,int pos){
         result.add(new ArrayList(list));
         for(int i=pos;i<nums.length;i++){
+            // add judgement
             if(i!=pos && nums[i]==nums[i-1]){
                 continue;
             }
