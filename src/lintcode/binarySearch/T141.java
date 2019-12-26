@@ -27,7 +27,7 @@ public class T141 {
     }
     public static void main(String[] args) {
         T141 t = new T141();
-        System.out.println(t.sqrt(154));
+        System.out.println(t.sqrt(3));
     }
 }
 /**
