@@ -22,8 +22,9 @@ public class T141 {
                 // possible root must be smaller than or equal to current mid
             else    end = mid;
         }
-        if (end > x / end)  return start;
-        return end;
+        /*if (end > x / end)  return start;
+        return end;*/
+        return start;
     }
     public static void main(String[] args) {
         T141 t = new T141();

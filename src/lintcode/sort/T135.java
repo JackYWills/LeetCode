@@ -6,8 +6,6 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @Title: LeetCode
- * @ClassName: Tx
  * @Description:
  * @Author: yanwenjie
  * @Date2019/12/20 12:53
